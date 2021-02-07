@@ -1,5 +1,4 @@
 from model.project import Project
-import time
 
 
 def test_add_project(app, json_project, check_ui, config):

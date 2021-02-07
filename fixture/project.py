@@ -18,10 +18,8 @@ class ProjectHelper:
     def create(self, project):
         wd = self.app.wd
         self.open_project_page()
-        # init group creation
         wd.find_element_by_xpath("//button[@type='submit']").click()
         self.fill_project_form(project)
-        # submit group creation
         wd.find_element_by_xpath(u"//input[@value='Добавить проект']").click()
         self.return_to_project_page()
         self.project_cache = None
