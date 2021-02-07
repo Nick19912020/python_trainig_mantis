@@ -1,1 +1,1 @@
-# python_trainig_mantis
+# python_training_mantis
